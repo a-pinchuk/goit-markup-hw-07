@@ -7,8 +7,8 @@
 
 @mixin centeredBlock($type: block) {
     display: $type;
-    align-items: center;
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
